@@ -17,9 +17,9 @@
 }
 
 .card-container {
-    display: grid;
-    align-content: center;
-    width: 50%;
-    padding: 25%;
-
+    float: right;
+    margin-top: 6%;
+    width: 100%;
+    height: 15%;
+    background-color: white;
 }
