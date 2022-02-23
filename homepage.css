@@ -1,0 +1,75 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    /* background: linear-gradient(124deg, #e8b71d, #e3e81d, #1de840, #1ddde8);
+    background-size: 1800% 1800%;
+
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite; */
+    background-color: #F5F5F5;
+}
+
+.homepagecolor {
+    overflow: hidden;
+}
+
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.textcenter {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px ;
+    white-space: pre-line;
+}
+
+.textcenter1 {
+    text-align: center;
+    margin-top: 30px; 
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+button:hover {
+    background-color: #ff8080;
+}
+.aligntext {
+    text-align: center;
+}
+.buttonhomepage {
+    border: transparent;
+    border-radius: 4px ;
+    background-color: #e32727;
+	text-decoration: none;
+	color: white;
+    font-size: 17px;
+    margin-top: 30px; 
+	padding: 13px 45px;
+	transition: 0.4s;
+}
+.textcenter2 {
+    text-align: center;
+    margin-top: 30px; 
+    font-size: 20px;
+    white-space: pre-line;
+}

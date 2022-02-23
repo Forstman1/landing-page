@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 7%);
+    column-gap: 29.5%;
+    text-align: center;
+   
+    align-content: center;
+    padding-top: 30px;
+}
+
+.card1 {
+    width: 300%;
+    padding: 40%;
+    background-color: white;
+    border-radius: 15px ;
+}
+.card2 {
+    width: 300%;
+    padding: 40%;
+    background-color: white;
+    border-radius: 15px ;
+}
+.card3 {
+    width: 300%;
+    padding: 40%;
+    background-color: white;
+    border-radius: 15px ;
+}
+
+
+.text-cards {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}

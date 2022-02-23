@@ -1,0 +1,25 @@
+.homepagecolor1 {
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px ;
+    white-space: pre-line;
+}
+
+.text-center1 {
+    text-align: center;
+    margin-top: 30px; 
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.card-container {
+    display: grid;
+    align-content: center;
+    width: 50%;
+    padding: 25%;
+
+}
