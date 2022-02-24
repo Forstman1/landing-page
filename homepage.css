@@ -66,6 +66,7 @@ button:hover {
     margin-top: 30px; 
 	padding: 13px 45px;
 	transition: 0.4s;
+    cursor: pointer;
 }
 .textcenter2 {
     text-align: center;
