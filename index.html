@@ -94,17 +94,34 @@
 				</li>
 			</ul>
 		</div>
-		<div class="form-card"><p style="margin-top: 20px;">Reach Out!</p>
+		<div class="form-card">
+			<p style="margin-top: 40px; color: #ff5056;">JOIN US!</p>
 			<div class="form-inputs">
-				<label class="resize" for="YourName">Your Name*</label>
-				<input required class="resize_button" type="text" name="YourName">
-				<label class="resize" for="YourEmail">Your Email*</label>
-				<input required class="resize_button" type="text" name="YourEmail">
-				<label class="resize" for="YourEmail">Your Phone Number*</label>
-				<input required class="resize_button" type="text" name="YourEmail">
-				<label class="resize" for="YourEmail">Company Name</label>
-				<input class="resize_button" type="text" name="YourEmail">
-				<div></div><button type="submit" class="form-button">SEND MY MESSAGE</button>
+				<form action="connect.php" method="post">
+					<div>
+						<label class="resize" for="YourName">Full Name*</label>
+						<input required class="resize_button" type="text" name="Name">
+					</div>
+					<div>
+						<label class="resize" for="YourEmail">Your Email*</label>
+						<input required class="resize_button" type="text" name="Email">
+					</div>
+					<div>
+						<label class="resize" for="Password">Password*</label>
+						<input required class="resize_button" type="text" name="Password">
+					</div>
+					<div>
+						<label class="resize" for="phone">Phone Number*</label>
+						<input required class="resize_button" type="text" name="Phone">
+					</div>
+					<div>
+						<label class="resize" for="Company">Company Name</label>
+						<input class="resize_button" type="text" name="Company">
+					</div>
+					<div></div>
+
+					<div></div><button type="submit" class="form-button">REGISTER NOW !!</button>
+				</form>
 			</div>
 		</div>
 	</div>
