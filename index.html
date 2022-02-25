@@ -3,10 +3,11 @@
 
 <head>
 	<title>website number 100th</title>
-	<link rel="stylesheet" href="nav.css">
-	<link rel="stylesheet" href="homepage.css">
-	<link rel="stylesheet" href="cards.css">
-	<link rel="stylesheet" href="homepage1.css">
+	<link rel="stylesheet" href="style/nav.css">
+	<link rel="stylesheet" href="style/homepage.css">
+	<link rel="stylesheet" href="style/cards.css">
+	<link rel="stylesheet" href="style/homepage1.css">
+	<link rel="stylesheet" href="style/form.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;700&display=swap" rel="stylesheet">
@@ -16,7 +17,7 @@
 	<!-- setting up the navbar-->
 
 	<div class="topnav">
-		<img class="active" src="cofee.png" alt="cofee image">
+		<img class="active" src="assets/cofee.png" alt="cofee image">
 		<button href="#plan" class="marketingbutton" type="button">FREE MARKETING PLAN</button>
 		<a href="#RESOURCES">RESOURCES</a>
 		<a href="#BLOG">BLOG</a>
@@ -37,7 +38,7 @@
 		</div>
 		<div class="textcenter2">Get 17+ new marketing ideas
 			that are better than what you have</div>
-		
+
 	</div>
 
 	<!-- setting up the the post cards-->
@@ -45,32 +46,69 @@
 	<div class="container">
 		<div class="card1">
 			<p class="text-cards1">They make you big promises.
-			We make you big bucks.</p>
-			<img class="image1" src="money.svg"></div>
+				We make you big bucks.</p>
+			<img class="image1" src="assets/money.svg">
+		</div>
 		<div class="card2">
 			<p class="text-cards2">They follow best practices.
-			We define them.</p>
-			<img class="image2" src="book.svg"></div>
+				We define them.</p>
+			<img class="image2" src="assets/book.svg">
+		</div>
 		<div class="card3">
 			<p class="text-cards3">They deliver reports.
-		We deliver results.</p>
-		<img class="image3" src="delivery.svg"></div>
+				We deliver results.</p>
+			<img class="image3" src="assets/delivery.svg">
+		</div>
 	</div>
 
 	<!-- setting up the the homepage 2-->
 
 	<div class="homepagecolor1">
-		<div class="text-center"><b>Choose How We Work Together: 
-			From One-Time Audits to Done-For-You-Everything</b></div>
+		<div class="text-center"><b>Choose How We Work Together:
+				From One-Time Audits to Done-For-You-Everything</b></div>
 		<div class="text-center1">Outsource all your marketing to us or have us help your internal team get better.
 			You choose the style of engagement.</div>
 	</div>
 
 	<!-- setting up the the big post card-->
-	<div class="card-container"><img style="width: 20%; height: 100%; float: right;" src="gardening.svg"><p style="text-align: center; font-size: larger; font-weight: bold;">Ongoing Expert Management</p><div style="font-size: 28px;">We’ll do everything, take care of everything,
-		and report directly to you.</div>
+	<div class="card-container"><img style="width: 20%; height: 100%; float: right;" src="assets/gardening.svg">
+		<p style="text-align: center; font-size: larger; font-weight: bold;">Ongoing Expert Management</p>
+		<div style="font-size: 28px; margin-left: 5%;">We’ll do everything, take care of everything,
+			and report directly to you.</div>
 	</div>
-	<p>test</p>
+	<p>.</p>
+
+	<!-- setting up the the Form Spot-->
+
+	<div class="form-container">
+		<div class="form-text">
+			<p style="font-size: 30px; font-weight: bolder; text-align: left;">Are We The Best
+				Fit For You?</p>
+			<div style="font-size: 25px;text-align: left;">You'll love working with KlientBoost if…</div>
+			<ul>
+				<li>✅ You're big on communication</li>
+				<li>✅ You're not afraid to explore new ideas with a proven partner</li>
+				<li>✅ You treat marketing like an investment, not a slot machine
+				</li>
+				<li>✅ You've got enough bandwidth to handle much more business
+				</li>
+			</ul>
+		</div>
+		<div class="form-card"><p style="margin-top: 20px;">Reach Out!</p>
+			<div class="form-inputs">
+				<label class="resize" for="YourName">Your Name*</label>
+				<input required class="resize_button" type="text" name="YourName">
+				<label class="resize" for="YourEmail">Your Email*</label>
+				<input required class="resize_button" type="text" name="YourEmail">
+				<label class="resize" for="YourEmail">Your Phone Number*</label>
+				<input required class="resize_button" type="text" name="YourEmail">
+				<label class="resize" for="YourEmail">Company Name</label>
+				<input class="resize_button" type="text" name="YourEmail">
+				<div></div><button type="submit" class="form-button">SEND MY MESSAGE</button>
+			</div>
+		</div>
+	</div>
+
 	<script src="app.js"></script>
 </body>
 

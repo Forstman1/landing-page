@@ -8,27 +8,26 @@
 }
 
 .card1 {
-    transition: 0.8s; 
+    transition: 1.5s; 
     width: 300%;
     padding: 40%;
     background-color: white;
     border-radius: 15px ;
 }
 .card2 {
-    transition: 0.8s;
+    transition: 1.5s;
     width: 300%;
     padding: 40%;
     background-color: white;
     border-radius: 15px ;
 }
 .card3 {
-    transition: 0.8s;
+    transition: 1.5s;
     width: 300%;
     padding: 40%;
     background-color: white;
     border-radius: 15px ;
 }
-
 
 .text-cards1 {
     text-align: center;
@@ -50,7 +49,11 @@
     width: 50%;
     margin-top: 10%;
 }
-
+.image4 {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
 .image2 {
     width: 60%;
 }
@@ -60,13 +63,10 @@
 }
 
 .animations {
-    
-    background-color: white;
+    transition: 0.8s;
+    background-color: #e32727;
     width: 100%;
     height: 100%;
     cursor: pointer;
-    border-radius: 40px;
-    /* transform: translateY(-50px);
-    transition: 2s;  
-    transform: translateY(0px); */
+    border-radius: 25px;
 }
