@@ -19,7 +19,8 @@ var text_cards2 = document.querySelector(".text-cards2");
 var text_cards3 = document.querySelector(".text-cards3");
 
 // creating new elements
-
+var marketing_button = document.querySelector(".marketingbutton");
+var BUTTON_homepage = document.querySelector(".buttonhomepage");
 
 
 var textElement1 = document.createElement('p');
@@ -109,14 +110,20 @@ card_container.addEventListener('mouseout', function ()
     card_container.style.backgroundColor = "white";
 });
 
-// form_card.addEventListener('mouseover', function ()
-// {
-//     form_card.style.backgroundColor = "#e32727";
-//     document.querySelector(".form-inputs").style.backgroundColor = "#e32727";
-// });
+marketing_button.addEventListener('click', function ()
+{  
+    window.scrollTo({
+		top: 800,
+		//bottom: 200,
+		behavior: "smooth"
+	});
+});
 
-// form_card.addEventListener('mouseout', function ()
-// {  
-//     form_card.style.backgroundColor = "white";
-//     document.querySelector(".form-inputs").style.backgroundColor = "white";
-// });
+BUTTON_homepage.addEventListener('click', function ()
+{  
+    window.scrollTo({
+		top: 800,
+		//bottom: 200,
+		behavior: "smooth"
+	});
+});
